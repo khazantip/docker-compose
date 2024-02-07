@@ -1,0 +1,12 @@
+version: "3.5"
+
+services:
+  dokerbackdc:
+    image: dokerback
+    ports:
+      - 8080:8080
+
+  dokerfrontdc:
+    image: dokerfront
+    ports:
+      - 80:3000
